@@ -57,6 +57,13 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 }
 
 export const WETH = {
+  [ChainId.GOHEAL]: new Token(
+    ChainId.GOHEAL,
+    '0x082B6A13d02922084589Ce520F054e15156B0C11',
+    18,
+    'WGOH',
+    'Wrapped GOH'
+  ),
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
     '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
